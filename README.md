@@ -35,7 +35,20 @@ Body:
  
  ### Search Booking
     ○ URL https://restful-booker.herokuapp.com/booking/<booking_id>
-## ▶ Project Scenario
+
+## 🚦 Project Scenario
+
+This project performs performance testing on the Restful Booker API using Apache JMeter by simulating common user actions such as:
+
+- 🔐 Logging into the system  
+- 📝 Creating bookings with randomly generated data  
+- 🔍 Searching for bookings using the booking ID  
+
+The testing is divided into two key phases:
+
+- ⚡ **Load Testing:** Simulates up to 120,000 users over a 12-hour period, compressed into 5, 10, and 20-minute intervals to assess system performance under expected load.  
+- 💥 **Stress Testing:** Gradually increases the user load to determine the system’s breaking point and identify any bottlenecks.
+
 
 ## ▶ Tools and features
 ### 🛠️ Tools & Technologies Used  
