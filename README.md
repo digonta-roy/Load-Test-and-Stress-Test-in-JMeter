@@ -49,8 +49,6 @@ The testing is divided into two key phases:
 - ⚡ **Load Testing:** Simulates up to 120,000 users over a 12-hour period, compressed into 5, 10, and 20-minute intervals to assess system performance under expected load.  
 - 💥 **Stress Testing:** Gradually increases the user load to determine the system’s breaking point and identify any bottlenecks.
 
-
-## ▶ Tools and features
 ### 🛠️ Tools & Technologies Used  
 🔧 Apache JMeter  
 📊 Excel  
