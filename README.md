@@ -4,15 +4,34 @@ This project performs load and stress tests using JMeter by simulating user acti
 
 ## ▶ Project Guidelines
 Create a JMeter collection containing HTTP requests for the Login API, Create Booking API, and Search API. Include the following header property in the Header Controller:
-○ Accept : */*
-● Login
+
+○ Accept: `*/*`
+
+### Login
 
 ○ URL : https://restful-booker.herokuapp.com/auth
 
 ○ Body:
 
-```json
-{
-  "username": "admin",
-  "password": "password123"
-}
+  - "username": "admin",
+  - "password": "password123"
+
+
+
+### Create Booking
+
+URL: `https://restful-booker.herokuapp.com/booking`
+
+Body:
+
+ - "firstname": "Generate Random FirstName",
+ - "lastname": "Generate Random LastName",
+ - "totalprice": "Generate random amount",
+ - "depositpaid": true,
+ - "bookingdates": {
+  -  "checkin": "2024-01-01",
+  -  "checkout": "2024-01-02"
+
+    ### Search Booking
+ 
+## Screenshot of Load Test Report:
