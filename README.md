@@ -32,6 +32,11 @@ Body:
   -  "checkin": "2024-01-01",
   -  "checkout": "2024-01-02"
 
-    ### Search Booking
  
+ ### Search Booking
+    ○ URL https://restful-booker.herokuapp.com/booking/<booking_id>
+## ▶ Project Scenario
+
+## ▶ Tools and features
+
 ## Screenshot of Load Test Report:
